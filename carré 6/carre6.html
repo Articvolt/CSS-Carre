@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <style>
+            body{
+                box-sizing: border-box;
+                background-color: #EEE;
+            }
+            #container{
+                width: 600px;
+                height: 600px;
+                border: 1px solid #CCC;
+                margin: 0 auto;
+                background-color: #FFF;
+                display: flex;
+                align-items: flex-end;  /* fixe au bottom*/
+                justify-content: center;    /* aligne au centre verticalement */
+            }
+            #rouge, #vert, #bleu{
+                text-align: center;  
+            }
+            #rouge{
+                width: 200px;
+                height: 200px;
+                background-color: #F00;
+            }
+            #vert{
+                width: 100px;
+                height: 100px;
+                background-color: #0F0;
+                position :absolute;
+                right: 20.6%;
+                bottom : 40%;
+                rotate: -90deg;
+                   
+            }
+            #bleu{
+                width: 50px;
+                height: 50px;
+                background-color: #00F;
+            }
+            #pile{
+               transform: rotate(-45deg);   /* rotation vers la gauche (-) */
+               margin-bottom: 35px; /* mesure apres plusieurs tests pour s'aligner +- au bottom */
+               justify-content: center;
+            }
+        
+        </style>
+    </head>
+    <body>
+        <div id="container">
+            <div id="pile">
+                <div id="bleu">BLEU</div>
+                <div id="rouge">ROUGE</div>        
+            </div>
+            <div id="vert">VERT</div>
+        </div>
+    </body>
+</html>
