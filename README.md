@@ -10,3 +10,6 @@ Réaliser plusieurs versions d'une même page HTML en utilisant les positionneme
 * float : left | right
 * z-index : XXX (une valeur numérique)
 * top | right | bottom | left: XXpx
+
+
+![carre](https://user-images.githubusercontent.com/98872263/164549208-c206f667-5f51-4ccb-978c-135b502e0fac.jpg)
